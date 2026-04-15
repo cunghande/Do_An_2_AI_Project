@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+.glass { 
+    background: rgba(255, 255, 255, 0.9); 
+    backdrop-filter: blur(10px); 
+}
+
+/* Tùy chỉnh thanh cuộn cho Timeline */
+.custom-scrollbar::-webkit-scrollbar { 
+    width: 4px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+    background: #e2e8f0; 
+    border-radius: 10px; 
+}
